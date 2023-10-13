@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "test": "jest --passWithNoTests --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
-    "test:ci": "jest --runInBand"
+    "test:ci": "jest --runInBand",
+    "cm": "git commit"
   },
   "dependencies": {
     "@types/node": "20.5.9",
@@ -20,6 +21,7 @@
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "^6.0.9",
     "typescript": "5.2.2"
   },
   "devDependencies": {
@@ -27,6 +29,7 @@
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.5.1",
     "@types/jest": "^29.5.5",
+    "@types/styled-components": "^5.1.28",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
     "eslint": "^8.48.0",
