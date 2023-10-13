@@ -18,11 +18,11 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
-          cache: npm
+          node-version: 18.x
+          cache: 'npm'
 
       - name: Install Dependecies
-        run: npm Install
+        run: npm install
 
       - name: Linting
         run: npm run lint
