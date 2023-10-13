@@ -15,7 +15,7 @@ jobs:
           cache: 'npm'
 
       - name: Install Dependecies
-        run: npm Install
+        run: npm install
 
       - name: Linting
         run: npm run lint
