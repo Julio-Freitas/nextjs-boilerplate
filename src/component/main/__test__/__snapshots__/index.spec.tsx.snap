@@ -3,11 +3,12 @@
 exports[`<Main /> Should be render corretcly 1`] = `
 .c0 {
   color: #001523;
+  padding-bottom: 0.5rem;
 }
 
 <h1
-  class="c0"
+  class="c0 pageTitle"
 >
-  Olá Mundo...
+  Pagina Home...
 </h1>
 `;

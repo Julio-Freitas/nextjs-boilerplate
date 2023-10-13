@@ -1,3 +1,4 @@
+import Header from '@/component/Header';
 import StyledComponentsRegistry from '../lib/registry';
 import Providers from './providers';
 
@@ -10,7 +11,10 @@ export default function RootLayout({
     <html>
       <body>
         <StyledComponentsRegistry>
-          <Providers>{children}</Providers>
+          <Providers>
+            <Header />
+            {children}
+          </Providers>
         </StyledComponentsRegistry>
       </body>
     </html>
