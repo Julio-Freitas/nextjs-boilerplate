@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> Should be render corretcly 1`] = `
+.c0 {
+  color: #001523;
+}
+
+<h1
+  class="c0"
+>
+  Olá Mundo...
+</h1>
+`;
